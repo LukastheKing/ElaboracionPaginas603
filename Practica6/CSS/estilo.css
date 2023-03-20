@@ -8,11 +8,10 @@
 }
 
 body{
-    background-image: url("Img/ImgInsti.jpg");
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
 }
 
 ul{
