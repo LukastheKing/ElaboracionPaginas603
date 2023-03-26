@@ -4,7 +4,7 @@
 
 #mainContent{
     width: 850px;
-    float: left;
+    float:right;
 
 }
 
@@ -50,24 +50,24 @@ li{
 .menu{
     overflow: hidden;
     float: left;
+    position: fixed;
     width: 350px;
     text-align: center;
     padding-top: 10px;
-
 }
 
 .mainContent{
     padding-top: 10px;
     text-align: center;
+    margin-left: 370px;
 }
 
-.mainContent h1{
-    font-weight: bold;
+.mainContent h1 h2 h3 h4 h5 h6{
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 .mainContent h4{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    
     margin-bottom: 0;
 }
 
@@ -77,19 +77,6 @@ li{
     padding-left: 0;
 }
 
-.imgGrupo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 .parentOfUI{
     text-align: center;
-
 }
-
-
-
-
-
