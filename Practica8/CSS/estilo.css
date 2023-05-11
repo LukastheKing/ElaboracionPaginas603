@@ -57,6 +57,8 @@ li{
     margin-left: 20px;
     background-color: white;
     outline: 5px solid black;
+    overflow-y: auto;
+    max-height: 600px;
 }
 
 .menu a{
