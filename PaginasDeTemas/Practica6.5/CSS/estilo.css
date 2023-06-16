@@ -1,0 +1,100 @@
+#container{
+    float: left;
+    padding-top: 20px;
+}
+
+#mainContent{
+    width: 850px;
+    float:right;
+}
+
+body{
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul{
+    display: inline-block;
+}
+
+ol{
+    display: inline-block;
+}
+
+li{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.topleft{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.menu{
+    overflow: hidden;
+    float: left;
+    position: fixed;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    outline: 5px solid black;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li{
+    text-align: left;
+}
+
+.menu ul{
+    display: block;
+}
+
+.mainContent{
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.mainContent h1 h2 h3 h4 h5 h6{
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.mainContent h4{
+    
+    margin-bottom: 0;
+}
+
+.mainContent ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.parentOfUI{
+    text-align: center;
+}
